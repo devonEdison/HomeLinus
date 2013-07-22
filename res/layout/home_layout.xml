@@ -99,13 +99,16 @@
 
     <!-- for left side icon -->
 
-    <ImageView
+    <TextView
         android:id="@+id/imageView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton00"
         android:layout_below="@+id/LeftButton00"
-        android:src="@drawable/announcement" />
+        android:text="社區公告"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
 
     <ImageButton
         android:id="@+id/LeftButton01"
@@ -114,15 +117,18 @@
         android:layout_alignLeft="@+id/imageView0"
         android:layout_below="@+id/imageView0"
         android:background="@null"
-        android:src="@drawable/icon_folder" />
+        android:src="@drawable/icon_note" />
 
-    <ImageView
+    <TextView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton01"
         android:layout_below="@+id/LeftButton01"
-        android:src="@drawable/opinion" />
+        android:text="意見調查"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
     <ImageButton
         android:id="@+id/LeftButton02"
         android:layout_width="wrap_content"
@@ -130,15 +136,18 @@
         android:layout_alignLeft="@+id/imageView1"
         android:layout_below="@+id/imageView1"
         android:background="@null"
-        android:src="@drawable/icon_folder" />
+        android:src="@drawable/icon_mail" />
 
-    <ImageView
+    <TextView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton02"
         android:layout_below="@+id/LeftButton02"
-        android:src="@drawable/mail_word" />
+        android:text="郵件包裹"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
 
     <ImageButton
         android:id="@+id/LeftButton00"
@@ -146,22 +155,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="0dp"
         android:background="@null"
         android:src="@drawable/icon_folder" />
     
     
 <!--  for left second side column -->    
     
-    
-    <ImageView
+    <TextView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView0"
         android:layout_alignLeft="@+id/LeftButton03"
         android:layout_below="@+id/LeftButton03"
-        android:src="@drawable/announcement" />
+        android:text="社區鏡頭"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
 
     <ImageButton
         android:id="@+id/LeftButton04"
@@ -170,15 +182,18 @@
         android:layout_alignLeft="@+id/imageView3"
         android:layout_below="@+id/imageView3"
         android:background="@null"
-        android:src="@drawable/icon_folder" />
+        android:src="@drawable/icon_onoff" />
 
-    <ImageView
+    <TextView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton04"
         android:layout_below="@+id/LeftButton04"
-        android:src="@drawable/opinion" />
+        android:text="開關控制"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
     <ImageButton
         android:id="@+id/LeftButton05"
         android:layout_width="wrap_content"
@@ -186,22 +201,89 @@
         android:layout_alignLeft="@+id/imageView4"
         android:layout_below="@+id/imageView4"
         android:background="@null"
-        android:src="@drawable/icon_folder" />
+        android:src="@drawable/icon_tabletennis" />
 
-    <ImageView
+    <TextView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton05"
         android:layout_below="@+id/LeftButton05"
-        android:src="@drawable/mail_word" />
+        android:text="設施預約"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
+    
+    <!--  for left third side column -->    
+    
+
+    <TextView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LeftButton06"
+        android:layout_below="@+id/LeftButton06"
+        android:text="測試物件"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
+
+    <ImageButton
+        android:id="@+id/LeftButton07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView6"
+        android:layout_below="@+id/imageView6"
+        android:background="@null"
+        android:src="@drawable/icon_folder" />
+
+    <TextView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LeftButton07"
+        android:layout_below="@+id/LeftButton07"
+        android:text="測試物件"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
+    <ImageButton
+        android:id="@+id/LeftButton08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_below="@+id/imageView7"
+        android:background="@null"
+        android:src="@drawable/icon_folder" />
+
+    <TextView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LeftButton08"
+        android:layout_below="@+id/LeftButton08"
+        android:text="測試物件"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="40sp" />
 
     <ImageButton
         android:id="@+id/LeftButton03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/imageView0"
-        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/LeftButton00"
+        android:background="@null"
+        android:src="@drawable/icon_cam" />
+
+    <ImageButton
+        android:id="@+id/LeftButton06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView3"
+        android:layout_marginLeft="70dp"
+        android:layout_toRightOf="@+id/LeftButton03"
         android:background="@null"
         android:src="@drawable/icon_folder" />
 
