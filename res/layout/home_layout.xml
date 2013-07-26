@@ -100,7 +100,7 @@
     <!-- for left side icon -->
 
     <TextView
-        android:id="@+id/imageView0"
+        android:id="@+id/TextView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton00"
@@ -114,13 +114,13 @@
         android:id="@+id/LeftButton01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView0"
-        android:layout_below="@+id/imageView0"
+        android:layout_alignLeft="@+id/TextView0"
+        android:layout_below="@+id/TextView0"
         android:background="@null"
         android:src="@drawable/icon_note" />
 
     <TextView
-        android:id="@+id/imageView1"
+        android:id="@+id/TextView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton01"
@@ -133,13 +133,13 @@
         android:id="@+id/LeftButton02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_below="@+id/imageView1"
+        android:layout_alignLeft="@+id/TextView1"
+        android:layout_below="@+id/TextView1"
         android:background="@null"
         android:src="@drawable/icon_mail" />
 
     <TextView
-        android:id="@+id/imageView2"
+        android:id="@+id/TextView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton02"
@@ -164,10 +164,10 @@
 <!--  for left second side column -->    
     
     <TextView
-        android:id="@+id/imageView3"
+        android:id="@+id/TextView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView0"
+        android:layout_alignBottom="@+id/TextView0"
         android:layout_alignLeft="@+id/LeftButton03"
         android:layout_below="@+id/LeftButton03"
         android:text="社區鏡頭"
@@ -179,13 +179,13 @@
         android:id="@+id/LeftButton04"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/TextView3"
+        android:layout_below="@+id/TextView3"
         android:background="@null"
         android:src="@drawable/icon_onoff" />
 
     <TextView
-        android:id="@+id/imageView4"
+        android:id="@+id/TextView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton04"
@@ -198,13 +198,13 @@
         android:id="@+id/LeftButton05"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_below="@+id/imageView4"
+        android:layout_alignLeft="@+id/TextView4"
+        android:layout_below="@+id/TextView4"
         android:background="@null"
         android:src="@drawable/icon_tabletennis" />
 
     <TextView
-        android:id="@+id/imageView5"
+        android:id="@+id/TextView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton05"
@@ -218,7 +218,7 @@
     
 
     <TextView
-        android:id="@+id/imageView6"
+        android:id="@+id/TextView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton06"
@@ -232,13 +232,13 @@
         android:id="@+id/LeftButton07"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView6"
-        android:layout_below="@+id/imageView6"
+        android:layout_alignLeft="@+id/TextView6"
+        android:layout_below="@+id/TextView6"
         android:background="@null"
         android:src="@drawable/icon_folder" />
 
     <TextView
-        android:id="@+id/imageView7"
+        android:id="@+id/TextView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton07"
@@ -251,13 +251,13 @@
         android:id="@+id/LeftButton08"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView7"
-        android:layout_below="@+id/imageView7"
+        android:layout_alignLeft="@+id/TextView7"
+        android:layout_below="@+id/TextView7"
         android:background="@null"
         android:src="@drawable/icon_folder" />
 
     <TextView
-        android:id="@+id/imageView8"
+        android:id="@+id/TextView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/LeftButton08"
@@ -271,7 +271,7 @@
         android:id="@+id/LeftButton03"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView0"
+        android:layout_above="@+id/TextView0"
         android:layout_marginLeft="70dp"
         android:layout_toRightOf="@+id/LeftButton00"
         android:background="@null"
@@ -281,7 +281,7 @@
         android:id="@+id/LeftButton06"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageView3"
+        android:layout_above="@+id/TextView3"
         android:layout_marginLeft="70dp"
         android:layout_toRightOf="@+id/LeftButton03"
         android:background="@null"
